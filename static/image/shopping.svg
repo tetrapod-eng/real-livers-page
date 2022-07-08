@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="500" height="500" viewBox="0 0 500 500" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs>
+</defs>
+<g transform="matrix(11.92 0 0 11.92 250 250)" id="fbP-wF828J9CCePzZxp_d"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-24, -24)" d="M 11 44 Q 9.8 44 8.9 43.1 Q 8 42.2 8 41 L 8 15 Q 8 13.8 8.9 12.9 Q 9.8 12 11 12 L 16.5 12 L 16.5 11.5 Q 16.5 8.35 18.675 6.175 Q 20.85 4 24 4 Q 27.15 4 29.325 6.175 Q 31.5 8.35 31.5 11.5 L 31.5 12 L 37 12 Q 38.2 12 39.1 12.9 Q 40 13.8 40 15 L 40 41 Q 40 42.2 39.1 43.1 Q 38.2 44 37 44 Z M 19.5 11.5 L 19.5 12 L 28.5 12 L 28.5 11.5 Q 28.5 9.6 27.2 8.3 Q 25.9 7 24 7 Q 22.1 7 20.8 8.3 Q 19.5 9.600000000000001 19.5 11.5 Z M 11 41 L 37 41 L 37 15 L 31.5 15 L 31.5 19.5 Q 31.5 20.15 31.075 20.575 Q 30.65 21 30 21 Q 29.35 21 28.925 20.575 Q 28.5 20.15 28.5 19.5 L 28.5 15 L 19.5 15 L 19.5 19.5 Q 19.5 20.15 19.075 20.575 Q 18.65 21 18 21 Q 17.35 21 16.925 20.575 Q 16.5 20.15 16.5 19.5 L 16.5 15 L 11 15 L 11 41 Z M 11 41 L 11 15 L 11 41 Z" stroke-linecap="round" />
+</g>
+</svg>

@@ -1,0 +1,17 @@
+
+
+.code-zero { width: 0; }
+
+.rectangle {
+    
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 60px solid #80d5f6ff;
+    border-right: 0;
+}
+
+
+$base-color: #80d5f6ff;

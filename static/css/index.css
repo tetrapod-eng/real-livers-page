@@ -1,0 +1,358 @@
+.code-zero {
+  width: 0;
+}
+
+.rectangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 60px solid #80d5f6;
+  border-right: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.max-content {
+  width: 100%;
+  background-color: #fffFFF;
+}
+
+#main-view {
+  width: 100%;
+  height: 100vh;
+  background-color: #DCDCDC;
+  background-image: url("../image/main-v.jpg");
+  background-size: cover;
+  position: relative;
+}
+#main-view .rectangle {
+  border-left: 800px solid #80d5f6;
+  border-top-width: 170px;
+  border-bottom-width: 170px;
+  z-index: 2;
+  position: relative;
+  top: -170px;
+}
+#main-view .rectangle p {
+  position: absolute;
+  left: -770px;
+  font-size: 50px;
+  color: #FFFFFF;
+  bottom: -120px;
+}
+#main-view::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2196078431);
+  z-index: 1;
+}
+#main-view .text-box {
+  z-index: 2;
+  position: absolute;
+  bottom: 20%;
+  left: 50px;
+}
+#main-view .text-box p {
+  font-size: 40px;
+  color: #fffFFF;
+}
+#main-view .text-box p.text-large {
+  font-size: 70px;
+}
+#main-view .text-box p.text-bold {
+  font-weight: bold;
+}
+
+#liver-fst {
+  background-color: #80d5f6;
+  padding-top: 87px;
+  padding-bottom: 64px;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 25px;
+}
+#liver-fst .link-btn {
+  background-color: #000000;
+  text-align: center;
+  width: 552px;
+  height: 63px;
+  line-height: 63px;
+  display: block;
+  margin: 40px auto 0 auto;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.container {
+  width: 731px;
+  margin: 0 auto;
+}
+.container h2 {
+  margin-top: 63px;
+  margin-bottom: 43px;
+}
+.container .cnt-item-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .cnt-item-list .cnt-item {
+  max-width: 345.5px;
+  min-width: 345.5px;
+  background-color: #80d5f6;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  padding: 50px 40px;
+}
+.container .cnt-item-list .cnt-item .svg {
+  text-align: center;
+}
+.container .cnt-item-list .cnt-item .svg img {
+  width: 70px;
+}
+.container .cnt-item-list .cnt-item .item-text {
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 13px;
+}
+
+#question {
+  width: 731px;
+  margin: 0 auto;
+}
+#question .question-item {
+  background-color: #f3f7fb;
+  margin-bottom: 20px;
+}
+#question .question-item .question-head {
+  display: flex;
+  height: 45px;
+  line-height: 45px;
+}
+#question .question-item .question-head .que-icon {
+  width: 45px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+#question .question-item .question-head .que-text {
+  width: 100%;
+  padding-left: 12px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+#question .question-item .question-head .que-add {
+  width: 45px;
+  height: 45px;
+  box-sizing: border-box;
+  padding: 11px;
+}
+#question .question-item .question-body {
+  font-size: 13px;
+  padding: 20px 50px;
+  box-sizing: border-box;
+}
+#question .question-item .question-body.close {
+  display: none;
+}
+#question .question-item .question-body.open {
+  display: block;
+}
+
+#submission-flow {
+  display: flex;
+  flex-wrap: wrap;
+  width: 731px;
+  margin: 0 auto;
+}
+#submission-flow .submission-item {
+  width: calc(50% - 26px);
+  display: flex;
+  flex-flow: column;
+  padding: 40px 12px;
+  justify-content: space-between;
+  border: 1px solid #eeeeee;
+  background-color: #f3f7fb;
+  position: relative;
+}
+#submission-flow .submission-item .submission-text {
+  height: 60px;
+  font-size: 13px;
+  color: #747474;
+}
+#submission-flow .submission-item .step {
+  width: 100px;
+  height: 35px;
+  border-radius: 22px;
+  color: #FFFFFF;
+  background-color: #000000;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  top: -15px;
+  left: -20px;
+}
+
+.h3-article {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.h3-main {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.h4-sub {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#sns-link {
+  display: flex;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+#sns-link li {
+  list-style: none;
+  width: 70px;
+  height: 70px;
+}
+#sns-link li a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#sns-link li:nth-child(2) {
+  width: 50px;
+  height: 50px;
+  padding: 10px 0;
+}
+#sns-link li:nth-child(4) {
+  width: 50px;
+  height: 50px;
+  padding: 10px 0;
+}
+
+#footer {
+  width: 100%;
+  padding: 30px 0;
+  background-color: #80d5f6;
+}
+#footer #glow-ft-img {
+  width: 250px;
+  height: 75px;
+  margin: 0 auto;
+  background-color: #cccccc;
+  text-align: center;
+  line-height: 75px;
+}
+#footer #links {
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+  list-style: none;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+#footer #links li {
+  padding: 4px 0;
+}
+#footer #links a {
+  text-decoration: none;
+  color: #fffFFF;
+}
+#footer .copy-right {
+  color: #f0f0f0;
+  font-size: 13px;
+  text-align: center;
+}
+
+@media screen and (max-width: 746px) {
+  #main-view {
+    background-position: center bottom;
+  }
+  #main-view .rectangle {
+    border-left-width: 80vw;
+    border-top-width: 40vw;
+    top: -40vw;
+  }
+  #main-view .rectangle p {
+    left: -75vw;
+    bottom: -120px;
+    font-size: 31px;
+  }
+  #main-view .text-box p {
+    font-size: 30px;
+  }
+  #main-view .text-box p.text-large {
+    font-size: 66px;
+  }
+  #liver-fst p {
+    font-size: 13px;
+    line-height: 1.5rem;
+  }
+  #liver-fst .link-btn {
+    width: 90%;
+    margin: 15px auto 0 auto;
+    font-size: 13px;
+  }
+  .container {
+    width: 100%;
+    display: block;
+  }
+  .container h2 {
+    padding-left: 12px;
+    box-sizing: border-box;
+  }
+  .container h2 img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .container .cnt-item-list {
+    padding: 0 12px;
+    box-sizing: border-box;
+  }
+  .container .cnt-item-list .cnt-item {
+    margin: 0 auto 20px auto;
+  }
+  #question {
+    width: 100%;
+    padding: 0 12px;
+    box-sizing: border-box;
+  }
+  #submission-flow {
+    display: block;
+    width: 100%;
+    padding: 0 25px;
+    box-sizing: border-box;
+  }
+  #submission-flow .submission-item {
+    width: 90%;
+    margin-bottom: 25px;
+  }
+  #submission-flow .submission-item h4 {
+    margin-bottom: 10px;
+  }
+  #sns-link {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 12px;
+  }
+}
